@@ -22,15 +22,14 @@
                 else
                     Console.WriteLine("\nArray can have maximum 20 elements \n");
             }
-
             Console.WriteLine("====================");
-            Console.Writeline("Enter Array Elements");
+            Console.WriteLine("Enter Array Elements");
             Console.WriteLine("====================");
 
             //get array elements
             for(int i = 0; i < n; i++)
             {
-                Console.Write("<" + i(i + 1) + ">");
+                Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
                 arr[i] = Int32.Parse(s1);
             }
@@ -83,7 +82,7 @@
                 {
                     //swap the element at index i with the element at index j
                     swap(i, j);
-                    mov_count;
+                    mov_count++;
                 }
             }
             //now contains the index  of the last elemnet
@@ -106,7 +105,7 @@
             Console.WriteLine("sorted array element");
             Console.WriteLine("====================");
 
-            for (int j =0; j < n: j++)
+            for (int j = 0; j < n; j++)
             {
                 Console.WriteLine(arr[j]);
 
